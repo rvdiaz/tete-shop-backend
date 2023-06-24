@@ -93,7 +93,6 @@ pids
 logs
 results
 node_modules
-build
 .node_history
 
 ############################
