@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_header_sections",
+  "info": {
+    "displayName": "Header Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "submenu": {
+      "displayName": "Submenu Banner",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.submenu-banner"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.image-link"
+    }
+  }
+}

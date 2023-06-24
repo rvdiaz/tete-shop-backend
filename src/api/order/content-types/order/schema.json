@@ -30,10 +30,13 @@
         "Products Shipped"
       ]
     },
-    "products": {
+    "product": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"
+    },
+    "variations": {
+      "type": "json"
     }
   }
 }

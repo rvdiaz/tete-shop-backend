@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_main_menus",
+  "info": {
+    "displayName": "Main Menu"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.menu-item"
+    }
+  }
+}

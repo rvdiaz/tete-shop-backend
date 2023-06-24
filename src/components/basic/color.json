@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_basic_colors",
+  "info": {
+    "displayName": "color",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "hexagecimal": {
+      "type": "string"
+    },
+    "availability": {
+      "type": "boolean"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
