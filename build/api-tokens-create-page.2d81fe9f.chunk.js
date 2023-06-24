@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshop_tete=self.webpackChunkshop_tete||[]).push([[4299],{9683:(o,t,e)=>{e.r(t),e.d(t,{default:()=>P});var s=e(67294),E=e(5458),n=e(87751),_=e(57692);const P=()=>s.createElement(E.O4,{permissions:n.Z.settings["api-tokens"].create},s.createElement(_.Z,null))}}]);
