@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_basic_sizes",
+  "info": {
+    "displayName": "size"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "availability": {
+      "type": "boolean"
+    }
+  }
+}

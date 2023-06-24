@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Price": {
+    "price": {
       "type": "decimal"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -29,8 +29,26 @@
         "audios"
       ]
     },
-    "Description": {
+    "description": {
       "type": "richtext"
+    },
+    "size": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.size"
+    },
+    "color": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.color"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "man clothes",
+        "woman clothes",
+        "accesories"
+      ]
     }
   }
 }
