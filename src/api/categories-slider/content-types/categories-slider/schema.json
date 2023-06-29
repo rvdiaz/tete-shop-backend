@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "categories_sliders",
+  "info": {
+    "singularName": "categories-slider",
+    "pluralName": "categories-sliders",
+    "displayName": "Categories Slider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    }
+  }
+}
